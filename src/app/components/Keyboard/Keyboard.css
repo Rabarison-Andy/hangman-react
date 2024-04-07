@@ -1,0 +1,31 @@
+.keyboard-container {
+    background-color: beige;
+    border-radius: 15px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    position: fixed;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .keyboard-button {
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .keyboard-button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+  

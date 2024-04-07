@@ -1,0 +1,201 @@
+/* Style pour le conteneur principal */
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Style pour le titre */
+  h1 {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Style pour les popups de victoire et de défaite */
+  .popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  /* Style pour le bouton "Rejouer" */
+  .button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    font-size: 1rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Style pour les informations sur le mot et la langue */
+  .info {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  /* Style pour les boutons de changement de langue */
+  .language-buttons {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  /* Style pour le clavier */
+  .keyboard {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  /* Style pour les lettres incorrectes */
+  .bad-letters {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  /* Style pour le dessin */
+  .draw {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+/* Style pour les boutons de changement de langue */
+.language-buttons {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  /* Style pour chaque bouton de langue */
+  .language-buttons button {
+    padding: 10px 15px;
+    margin-left: 10px;
+    font-size: 2rem; /* Augmentation de la taille du texte */
+    background-color: transparent;
+    color: wheat;
+    border: 2px solid wheat;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .language-buttons button:hover {
+    background-color: #f0f0f0; /* Effet de remplissage au survol */
+    color: black;
+  }  
+
+  /* Style pour le conteneur du mot et de l'origine */
+.word-length {
+    margin-top: 2rem; /* Espace au-dessus du conteneur */
+  }
+  
+  /* Style pour le mot */
+  .word-length p:first-child {
+    font-size: 2rem; /* Taille du texte du mot */
+    text-align: center;
+  }
+  
+  /* Style pour l'origine du mot */
+  .word-length p:last-child {
+    margin-top: 2rem; /* Décalage vers le haut pour l'origine du mot */
+    position: relative;
+    left: 44%;
+  }
+  
+  /* Style pour les lettres incorrectes */
+.bad-letters {
+    text-decoration: underline;
+  }
+  
+  /* Style pour aligner les lettres sur la même ligne */
+  .bad-letters p {
+    display: inline;
+    margin-right: 0.5rem; /* Marge à droite entre les lettres */
+  }
+    
+  /* Style pour afficher les éléments ul et li sur la même ligne */
+.bad-letters ul {
+    display: inline;
+  }
+  
+  .bad-letters li {
+    display: inline-block;
+    margin-right: 10px; /* Ajoute une marge entre chaque élément */
+  }  
+
+  /* Style pour centrer le dessin du pendu */
+.hangman-draw {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .lose-popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: rgba(82, 92, 54, 0.527);
+    padding: 20px;
+    border: 15px solid black;
+    border-radius: 35px;
+  }
+
+  .lose-popup button {
+    padding: 10px 20px;
+    margin-top: 20px;
+    font-size: 1rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+  .win-popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: rgba(82, 92, 54, 0.527);
+    padding: 20px;
+    border: 15px solid black;
+    border-radius: 35px;
+  }
+
+  .win-popup button {
+    padding: 10px 20px;
+    margin-top: 20px;
+    font-size: 1rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .popup h2 {
+    font-size: 1.5rem;
+  }
+  
